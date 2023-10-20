@@ -1,0 +1,55 @@
+
+@import url('https://fonts.cdnfonts.com/css/square');
+
+                
+body{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    padding: 50px 25px;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    width: 40px;
+    height:40px;
+    
+    
+}
+
+#container2{
+    border:1px solid navy;
+    height: 642px;
+    width: 642px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    flex-basis: auto;
+    box-sizing: border-box;
+    
+
+}
+
+.colorChange:hover{
+    background-color: pink;
+}
+
+.container1{
+    width :800px;
+    display: flex;
+    height: 100px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.restart,
+.resolution{
+    width: 150px;
+    align-items: flex-start;
+    height: 50px;
+}
+
+.heading{
+    font-family: 'Square',sans-serif;
+    font-weight: 250;
+}
+
